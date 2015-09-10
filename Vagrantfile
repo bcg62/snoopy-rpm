@@ -164,7 +164,7 @@ Vagrant.configure(2) do |config|
         mkdir -p $topdir/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 
         curl -o $topdir/SPECS/snoopy.spec \
-          https://raw.githubusercontent.com/tkimball83/rpmbuild/583bd657dc2bc10c25fcc846f1ea1febcfa66637/SPECS/snoopy.spec
+          https://raw.githubusercontent.com/tkimball83/rpmbuild/master/SPECS/snoopy.spec
 
         cd $topdir/SPECS
         spectool -g -R snoopy.spec
