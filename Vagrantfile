@@ -33,6 +33,7 @@ buildessential = %w(
   rpm-build
   curl
   spectool
+  buildsys-macros
 )
 
 Vagrant.configure(2) do |config|
