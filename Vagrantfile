@@ -51,7 +51,7 @@ Vagrant.configure(2) do |config|
   # config.vm.box = 'bento/centos-5.10'
   # config.vm.box_url = 'http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.10_chef-provisionerless.box'
 
-  # system base image centos 5.10 x86_64
+  # system base image centos 5.10 i386
   # config.vm.box = 'bento/centos-5.10-i386'
   # config.vm.box_url = 'http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.10-i386_chef-provisionerless.box'
 
