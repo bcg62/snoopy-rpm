@@ -42,8 +42,11 @@ Vagrant.configure(2) do |config|
   config.proxy.https    = ENV['https_proxy']
   config.proxy.no_proxy = ENV['no_proxy']
 
+  # system base image centos 7.2 x86_64
+  config.vm.box = 'bento/centos-7.2'
+
   # system base image centos 6.7 x86_64
-  config.vm.box = 'bento/centos-6.7'
+  # config.vm.box = 'bento/centos-6.7'
 
   # system base image centos 6.7 i386
   # config.vm.box = 'bento/centos-6.7-i386'
