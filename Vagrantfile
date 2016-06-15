@@ -71,7 +71,7 @@ Vagrant.configure(2) do |config|
 
     # epel breaks on 6
     '
-      [[ $(cat /etc/redhat-release) =~ "release 6" ]] &&
+      [[ $(cat /etc/redhat-release) =~ 6|7 ]] &&
         sed -i "s/mirrorlist=https/mirrorlist=http/" /etc/yum.repos.d/epel.repo
     ',
 
